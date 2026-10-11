@@ -1,0 +1,23 @@
+{
+  "project": "PS-020 Local SRv6 Path Steering and Measured Failure Recovery",
+  "team_code": "A3-PS020-TC035",
+  "status": "design",
+  "routers": {
+    "R1": {"role": "ingress", "example_sid": "2001:db8:1::1"},
+    "R2": {"role": "transit", "example_sid": "2001:db8:2::2"},
+    "R3": {"role": "transit-primary", "example_sid": "2001:db8:3::3"},
+    "R4": {"role": "transit-backup", "example_sid": "2001:db8:4::4"},
+    "R5": {"role": "egress", "example_sid": "2001:db8:5::5"}
+  },
+  "links": [
+    ["R1", "R2"],
+    ["R2", "R3"],
+    ["R3", "R5"],
+    ["R2", "R4"],
+    ["R4", "R5"]
+  ],
+  "primary_path": ["R1", "R2", "R3", "R5"],
+  "backup_path": ["R1", "R2", "R4", "R5"],
+  "controlled_failure_link": ["R2", "R3"],
+  "warning": "Documentation/example addressing only. These are not configured or validated Linux SRv6 SIDs."
+}
