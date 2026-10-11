@@ -1,0 +1,21 @@
+mode,trial,sent_packets,received_packets,lost_packets,packet_loss_percent,interruption_ms,detection_delay_ms,repair_delay_ms,estimated_srv6_overhead_bytes,note
+ipv6-baseline,1,120,50,70,58.333,700.0,31.834,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,1,120,112,8,6.667,80.0,30.728,71.211,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,2,120,50,70,58.333,700.0,46.314,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,2,120,112,8,6.667,80.0,37.891,74.559,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,3,120,50,70,58.333,700.0,44.816,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,3,120,113,7,5.833,70.0,45.42,68.506,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,4,120,50,70,58.333,700.0,43.845,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,4,120,114,6,5.0,60.0,26.669,55.102,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,5,120,50,70,58.333,700.0,56.888,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,5,120,114,6,5.0,60.0,35.919,56.968,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,6,120,50,70,58.333,700.0,42.426,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,6,120,113,7,5.833,70.0,34.178,67.805,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,7,120,50,70,58.333,700.0,21.465,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,7,120,110,10,8.333,100.0,59.54,94.432,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,8,120,50,70,58.333,700.0,21.149,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,8,120,111,9,7.5,90.0,50.189,87.487,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,9,120,50,70,58.333,700.0,38.472,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,9,120,114,6,5.0,60.0,26.818,58.299,56,SIMULATED; replace with measurements from real testbed
+ipv6-baseline,10,120,50,70,58.333,700.0,52.69,0.0,0,SIMULATED; replace with measurements from real testbed
+srv6-scripted,10,120,112,8,6.667,80.0,44.037,75.231,56,SIMULATED; replace with measurements from real testbed

@@ -1,0 +1,59 @@
+{
+  "warning": "SIMULATED RESULTS \u2014 not real network measurements",
+  "modes": {
+    "ipv6-baseline": {
+      "packet_loss_percent": {
+        "mean": 58.333,
+        "min": 58.333,
+        "max": 58.333
+      },
+      "interruption_ms": {
+        "mean": 700.0,
+        "min": 700.0,
+        "max": 700.0
+      },
+      "detection_delay_ms": {
+        "mean": 39.99,
+        "min": 21.149,
+        "max": 56.888
+      },
+      "repair_delay_ms": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "estimated_srv6_overhead_bytes": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "srv6-scripted": {
+      "packet_loss_percent": {
+        "mean": 6.25,
+        "min": 5.0,
+        "max": 8.333
+      },
+      "interruption_ms": {
+        "mean": 75.0,
+        "min": 60.0,
+        "max": 100.0
+      },
+      "detection_delay_ms": {
+        "mean": 39.139,
+        "min": 26.669,
+        "max": 59.54
+      },
+      "repair_delay_ms": {
+        "mean": 70.96,
+        "min": 55.102,
+        "max": 94.432
+      },
+      "estimated_srv6_overhead_bytes": {
+        "mean": 56.0,
+        "min": 56.0,
+        "max": 56.0
+      }
+    }
+  }
+}
