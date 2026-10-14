@@ -1,0 +1,26 @@
+PING 2001:db8:ffff::5 (2001:db8:ffff::5) 56 data bytes
+64 bytes from 2001:db8:ffff::5: icmp_seq=1 ttl=62 time=0.125 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=2 ttl=62 time=0.134 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=3 ttl=62 time=0.214 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=4 ttl=62 time=0.136 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=5 ttl=62 time=0.227 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=6 ttl=62 time=0.142 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=7 ttl=62 time=0.098 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=8 ttl=62 time=0.142 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=9 ttl=62 time=0.147 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=10 ttl=62 time=0.470 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=11 ttl=62 time=0.893 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=12 ttl=62 time=0.105 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=13 ttl=62 time=0.121 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=14 ttl=62 time=0.135 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=15 ttl=62 time=0.135 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=16 ttl=62 time=0.122 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=17 ttl=62 time=0.211 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=18 ttl=62 time=0.104 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=19 ttl=62 time=0.188 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=20 ttl=62 time=0.209 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=21 ttl=62 time=0.179 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=22 ttl=62 time=0.183 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=23 ttl=62 time=0.637 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=24 ttl=62 time=0.149 ms
+64 bytes from 2001:db8:ffff::5: icmp_seq=25 ttl=62 time=0.140 ms
