@@ -47,3 +47,37 @@ The primary path, controlled link failure, backup policy switch, backup connecti
 Recovery interruption duration and packet loss during the transition have not yet been rigorously measured. The prototype demonstrates **script-triggered recovery**, not automatic BFD/TI-LFA convergence.
 
 The repository's simulation results are separate from the live namespace-lab measurements.
+## Real Linux SRv6 Experiment
+
+This project includes a real Linux kernel SRv6 experiment,
+separate from the Python simulation.
+
+**Primary path:** HOST1 -> R1 -> R2 -> R4 -> R5
+
+**Backup path:** HOST1 -> R1 -> R3 -> R4 -> R5
+
+### Verified results
+
+| Metric | Result |
+|---|---:|
+| ICMPv6 packets received | 359 / 360 |
+| Packet loss | 0.2778% |
+| Median RTT | 0.138 ms |
+| Mean RTT | 82.991 ms |
+| Failover configuration time | 15.009 ms |
+| Failback configuration time | 35.698 ms |
+
+Configuration times are not end-to-end recovery times.
+These measurements represent one experiment run.
+
+### Project files
+
+- [Linux setup guide](linux-lab/SETUP.md)
+- [Topology setup script](linux-lab/setup_topology.sh)
+- [Automatic failover controller](linux-lab/failover_controller.py)
+- [Recovery analyzer](linux-lab/analyze_recovery.py)
+- [Demonstration guide](docs/DEMO.md)
+- [Measured recovery report](results/linux-srv6/recovery_report.md)
+
+The topology script has passed syntax checking,
+but a fresh rebuild has not yet been verified.
