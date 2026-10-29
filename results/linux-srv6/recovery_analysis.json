@@ -1,0 +1,57 @@
+{
+  "test_type": "Real Linux SRv6 continuous ICMPv6 test",
+  "probe_interval_requested_ms": 50,
+  "packets_transmitted": 360,
+  "packets_received": 359,
+  "packet_loss_percent": 0.2778,
+  "missing_reply_sequences": [
+    84
+  ],
+  "rtt_ms": {
+    "minimum": 0.077,
+    "mean": 82.991,
+    "median": 0.138,
+    "maximum": 2032.0
+  },
+  "failure_trigger_utc": "2026-10-29T11:08:14.029637+00:00",
+  "restore_trigger_utc": "2026-10-29T11:08:19.051172+00:00",
+  "failover": {
+    "controller_configuration_ms": 15.009,
+    "trigger_to_event_log_ms": 81.991,
+    "adjacent_replies": {
+      "last_reply_before": {
+        "timestamp": 1793272094.026016,
+        "sequence": 83,
+        "rtt_ms": 0.171
+      },
+      "first_reply_after": {
+        "timestamp": 1793272094.141056,
+        "sequence": 85,
+        "rtt_ms": 0.148
+      }
+    }
+  },
+  "failback": {
+    "controller_configuration_ms": 35.698,
+    "trigger_to_event_log_ms": 95.601,
+    "adjacent_replies": {
+      "last_reply_before": {
+        "timestamp": 1793272099.000474,
+        "sequence": 168,
+        "rtt_ms": 0.119
+      },
+      "first_reply_after": {
+        "timestamp": 1793272099.060986,
+        "sequence": 169,
+        "rtt_ms": 0.121
+      }
+    }
+  },
+  "measurement_notes": [
+    "Controller configuration time is not end-to-end recovery time.",
+    "Trigger-to-event-log delay includes polling, configuration, and logging.",
+    "ICMP reply timestamps and RTTs do not directly measure outage duration.",
+    "One missing reply does not imply only 50 ms of disruption.",
+    "High RTT values may reflect delayed replies during route transitions."
+  ]
+}
